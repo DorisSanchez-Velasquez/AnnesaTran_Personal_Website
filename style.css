@@ -1,0 +1,48 @@
+/*GENERAL DESIGN*/
+body{
+    background-color: #e1ede3;
+    color: #19471e;
+    font-family: century gothic, verdana, arial;
+}
+
+h1{
+    font-size: 32px;
+    text-align: center;
+}
+
+#ProfilePic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 16em;
+}
+
+#NameIntro
+{
+    float:center;
+}
+
+/*NAVIGATION BAR DESIGN*/
+#NavBar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000000;
+}
+
+.NavSection{
+    float: left;
+}
+
+li a{
+    display: block;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px 22px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color:#19471e;
+}
