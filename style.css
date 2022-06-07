@@ -3,6 +3,7 @@ body{
     background-color: #e1ede3;
     color: #19471e;
     font-family: century gothic, verdana, arial;
+    font-size:20px;
 }
 
 h1{
@@ -17,9 +18,40 @@ h1{
     width: 16em;
 }
 
+img{
+    width:30%;
+    height:30%;
+}
+#projectImg
+{
+    width:100%;
+}
+
 #NameIntro
 {
     float:center;
+}
+
+/*PORTFOLIO CARD DESIGNS*/
+.projectCard
+{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+    margin:auto;
+    display:inline-block;
+    padding:3em;
+    flex-wrap:wrap;
+}
+
+.projectCard.hover
+{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.Container
+{
+    padding: 2px 5px;
 }
 
 /*NAVIGATION BAR DESIGN*/
